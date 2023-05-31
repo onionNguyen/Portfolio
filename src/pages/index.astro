@@ -27,7 +27,7 @@ const projects = (await getCollection('work'))
 
 <BaseLayout>
 	<div class="stack gap-20 lg:gap-48">
-		<div class="wrapper stack gap-8 lg:gap-20">
+		<div class="my-element wrapper stack gap-8 lg:gap-20">
 			<header class="hero">
 				<Hero
 					title="Hello, my name is Nhat Nguyen"
@@ -239,6 +239,20 @@ const projects = (await getCollection('work'))
 		background: var(--gradient-subtle);
 		box-shadow: var(--shadow-sm);
 	}
+	/* Define the keyframes for the fade-in animation */
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Apply the fade-in animation to the element */
+.my-element {
+  animation: fade-in 1s ease-in-out;
+}
 
 	@media (min-width: 50em) {
 		.mention-card {
