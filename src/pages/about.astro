@@ -5,7 +5,7 @@ import ContactCTA from '../components/ContactCTA.astro';
 import Hero from '../components/Hero.astro';
 ---
 
-<BaseLayout title="About | Jeanine White" description="About Jeanine White Lorem Ipsum">
+<BaseLayout title="About | Nhat Nguyen" description="About Nhat Nguyen Lorem Ipsum">
 	<div class="stack gap-20">
 		<main class="wrapper about">
 			<Hero
@@ -15,44 +15,54 @@ import Hero from '../components/Hero.astro';
 				<img
 					width="1553"
 					height="873"
-					src="/assets/at-work.jpg"
-					alt="Jeanine White at work with a colleague"
+					src="/assets/hardrock_lanscape.jpeg"
+					alt="Nhat Nguyen at Hard Rock Cafe in California"
 				/>
 			</Hero>
 
 			<section>
 				<h2 class="section-title">Background</h2>
 				<div class="content">
-					<p>
-						Lorem ipsum dolor sit amet, <a href="https://astro.build/">Astro</a> makes people happy.
-						Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Proin nibh nisl condimentum
-						id venenatis a condimentum vitae. Dapibus ultrices in iaculis nunc. Arcu odio ut sem nulla
-						pharetra diam sit amet. Diam quis enim lobortis scelerisque fermentum dui faucibus in ornare.
+					<p style="margin-bottom: 1em;">
+						Hi I'm <strong style="color:lightpink"> Nhat </strong> and I'm a <strong style="color:lightpink">software engineer</strong>. I was born in <strong style="color:lightpink">Vietnam</strong> and moved to the United States when I was 18 years old.
+						I've always been fascinated by technology, ever since I was a little kid. 
+						My curiosity about computers led me to question a lot of things and experiment with electronic devices. 
+						In 8th grade, my biggest accomblishment was to <strong style="color:lightpink">jailbreake</strong> an iPhone 4.
 					</p>
-					<p>
-						Arcu dui vivamus arcu felis bibendum ut tristique et egestas. Eget gravida cum sociis
-						natoque penatibus. Cras fermentum odio eu feugiat pretium nibh. Proin nibh nisl
-						condimentum id venenatis. Porta nibh venenatis cras sed felis eget velit. Id diam vel
-						quam elementum pulvinar etiam non.
+					<p style="margin-bottom: 1em;">
+						I want to be a software engineer to <strong style="color:lightpink">improve</strong> people's lives by creating innovative solutions that make their tasks easier and more enjoyable.
+						I’m always eager to <strong style="color:lightpink">learn new technologies and expand my knowledge base</strong>.<strong style="color:lightpink"> My goal</strong> is to join a dynamic team that values creativity, collaboration, and quality.
 					</p>
-					<p>
-						Ultrices tincidunt arcu non sodales neque sodales ut. Sed enim ut sem viverra aliquet
-						eget sit amet. Lacus luctus accumsan tortor posuere ac ut consequat semper viverra.
-						Viverra accumsan in nisl nisi scelerisque eu ultrices. In massa tempor nec feugiat nisl
-						pretium fusce.
+					<p style="margin-bottom: 1em;">
+						Besides technology, I have many other interests and hobbies that keep me balanced and happy. 
+						I can play multiple instruments, such as guitar, piano, and drums. 
+						I also enjoy setting up decent sound systems for my friends and family. 
+						I love sports, especially soccer, football, swimming and ping pong.
+						I also like photography and taking pictures of nature and people.
 					</p>
 				</div>
 			</section>
 			<section>
 				<h2 class="section-title">Education</h2>
 				<div class="content">
-					<p>Corporis voluptates tenetur laudantium.</p>
+					<p><strong style="color:lightpink">University of Texas at Dallas - Major: Software Engineering</strong></p>
 				</div>
 			</section>
 			<section>
 				<h2 class="section-title">Skills</h2>
 				<div class="content">
-					<p>officia unde omnis</p>
+					<div class="button-container">
+					<button class="my-button">JavaScript</button>
+					<button class="my-button">Python</button>
+					<button class="my-button">React Native</button>
+					<button class="my-button">Node.js</button>
+					<button class="my-button">Dart</button>
+					<button class="my-button">Tailwind</button>
+					<button class="my-button">AI search engine</button>
+					<button class="my-button">Adobe Software</button>
+					<button class="my-button">Behringer X-air</button>
+					<button class="my-button">Microsoft Office</button>
+				</div>
 				</div>
 			</section>
 		</main>
@@ -62,6 +72,22 @@ import Hero from '../components/Hero.astro';
 </BaseLayout>
 
 <style>
+	 .button-container {
+    text-align: left;
+  }
+  .my-button {
+    display: inline-block;
+    background-color: #B76D90;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+  }
 	.about {
 		display: flex;
 		flex-direction: column;

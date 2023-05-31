@@ -1,0 +1,30 @@
+---
+import Nav from '../components/Nav.astro';
+// import { backgroundColor } from './styles.astro';
+
+const title = 'Resume';
+---
+
+<style>
+    .resume {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: {backgroundColor};
+    }
+
+    .resume embed {
+        width: 100%;
+        height: 800px;
+        border: none;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+</style>
+
+<Nav />
+
+<section class="resume">
+    <h1>My Resume</h1>
+    <p>Here's my resume:</p>
+    <embed src="/public/NhatNguyen_Resume_SE.pdf" type="application/pdf" />
+</section>
