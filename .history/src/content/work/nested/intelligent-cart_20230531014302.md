@@ -23,9 +23,4 @@ Intelligent Cart is a web-based e-commerce application that allows users to brow
     <img src="/assets/ic_project/IC_searchbar.png" alt="Product Search" />
     <p className="legend">Product Search</p>
   </div>
-   An information system for libraries that manages asset circulation, cataloging, and memberships, through automation of essential
-housekeeping functions including book search, inventory management such as addition of new books and check-in-and-out, membership loans
-and fines, and others. System performance demonstrated a 25% improvement in order transaction time and a 15% reduction in reporting
-errors.
-
 The application uses React and Bootstrap to create user-friendly and responsive web pages that adapt to different devices and screen sizes. The application also integrates a dynamic recommendation system that suggests products based on user preferences and nutritional needs. The recommendation system is powered by Python and a neural network that learns from user feedback and behavior. The application collaborates with back-end developers and designers to ensure the quality and functionality of the web application and to meet the project goals and deadlines. The project is hosted on GitHub and can be accessed through this link: https://github.com/onionNguyen/Intelligent-Cart.
